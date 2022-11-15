@@ -6,7 +6,7 @@ class Products {
         this.title = title
         this.price = price
         this.thumbnail = thumbnail
-        this.id = id
+        this.id = id;
     }
 
     save = async (title, price, thumbnail, id) => {
